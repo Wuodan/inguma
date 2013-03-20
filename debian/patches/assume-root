@@ -1,0 +1,18 @@
+Assume root user by default
+Index: inguma/lib/ui/main.py
+===================================================================
+--- inguma.orig/lib/ui/main.py	2013-03-20 16:43:40.307647351 -0400
++++ inguma/lib/ui/main.py	2013-03-20 16:43:59.539250819 -0400
+@@ -26,9 +26,9 @@
+     # Need root for most modules, so...
+     if os.geteuid() != 0:
+         print "You must be root to run most of the modules."
+-        answer = raw_input("Do you want to continue [y/N]? ")
+-        if answer.lower() != 'y':
+-            sys.exit(1)
++#        answer = raw_input("Do you want to continue [y/N]? ")
++#        if answer.lower() != 'y':
++#            sys.exit(1)
+ 
+ # Perform the GTK UI dependency check here
+ from . import dependencyCheck
