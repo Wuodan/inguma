@@ -1,3 +1,9 @@
+inguma (0.4-1kali1) kali; urgency=low
+
+  * Added python-support to build deps.
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Mar 2013 16:59:04 -0400
+
 inguma (0.4-1kali0) kali; urgency=low
 
   * Kali Linux import
