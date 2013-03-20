@@ -8,7 +8,7 @@ Homepage: http://inguma.eu
 
 Package: inguma
 Architecture: all
-Depends: python, python-gtk2, ${misc:Depends}, ${python:Depends}, python-geoip, python-vte,python-gtksourceview2, python-scapy, tcpdump, python-impacket,python-paramiko,nmap
+Depends: python, python-gtk2, ${misc:Depends}, ${python:Depends}, python-geoip, python-vte,python-gtksourceview2, python-scapy, tcpdump, python-impacket,python-paramiko,nmap,python-bluez
 Suggests: python-gnuplot
 Description: Open source penetration testing toolkit
  Inguma is a free penetration testing and vulnerability discovery toolkit
