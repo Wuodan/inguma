@@ -64,7 +64,7 @@ install: build
 	#rm -f $(CURDIR)/debian/inguma/usr/share/inguma/scapy.py
 	#rm -f $(CURDIR)/debian/inguma/usr/share/inguma/winscapy.py
 
-	for item in *.py auxi data dis krash lib modules payloads scapy tools; do \
+	for item in *.py auxi extlib data dis krash lib modules payloads scapy tools; do \
 		cp -a $$item $(CURDIR)/debian/inguma/usr/share/inguma/; \
 	done
 
