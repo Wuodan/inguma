@@ -1,3 +1,9 @@
+inguma (0.3.0~hg20110507-1kali0) kali; urgency=low
+
+  * Kali Linux import
+
+ -- Mati Aharoni <muts@kali.org>  Wed, 20 Mar 2013 16:15:11 -0400
+
 inguma (0.3.0~hg20110507-1) unstable; urgency=low
 
   * New maintainer, taking over Pierre Chifflier.
