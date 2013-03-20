@@ -2,9 +2,7 @@ Source: inguma
 Section: net
 Priority: extra
 Maintainer: David Martínez Moreno <ender@debian.org>
-Build-Depends:  debhelper (>= 5.0.37.2),
-                python,
-                quilt (>= 0.40)
+Build-Depends:  debhelper (>= 5.0.37.2),python,python-support,quilt (>= 0.40)
 Standards-Version: 3.9.2
 Homepage: http://inguma.eu
 
