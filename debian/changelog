@@ -1,0 +1,68 @@
+inguma (0.3.0~hg20110507-1) unstable; urgency=low
+
+  * New maintainer, taking over Pierre Chifflier.
+  * New release (closes: #610648):
+    - Many, many changes.  Stability, fixes all over the place, GeoIP, even a
+      new logo!
+    - Scapy is again included due to patched sources.  We are in contact with
+      upstream to add those patches and drop it from the source.
+    - Added PyGTK GUI and dropped the Qt-based one.
+  * debian/control:
+    - Bumped to Standards-Version 3.9.2, no changes.
+    - Dropped python-qt3, we are only using pygtk.
+    - Added python:Depends.
+    - Added Homepage.
+    - Recommend python-geoip.
+  * debian/rules:
+    - Revamped the way everything is done.
+    - Removed some LICENSE files in dh_installdocs.
+    - Changed ingumagui to ginguma.
+  * Dropped debian/patches, none currently needed.
+  * Bumped compatibility version to debhelper v8.
+  * debian/copyright: Added lots of third-party dependencies and updated other
+    license terms.
+  * Created debian/source/format.
+
+ -- David Martínez Moreno <ender@debian.org>  Sun, 01 May 2011 15:44:38 -0700
+
+inguma (0.0.7.2-2) unstable; urgency=low
+
+  * Fix scapy configuration (Closes: #526945)
+  * Remove build-dep on python-dev, not needed
+  * Remove alternate dependency on scapy (Closes: #506140)
+  * Bump standards version to 3.9.1
+  * Move python-qt3 to Recommends (Closes: #512464)
+  * Fix use of "with" keyword (Closes: #582024)
+    Thanks to Luca Bruno for the patch
+  * Debian package 0.0.7.2-2
+
+ -- Pierre Chifflier <pollux@debian.org>  Wed, 25 Aug 2010 16:21:38 +0200
+
+inguma (0.0.7.2-1) unstable; urgency=low
+
+  * New upstream release
+  * Remove shipped scapy version (Closes: #466963)
+
+ -- Pierre Chifflier <pollux@debian.org>  Fri, 28 Mar 2008 19:16:40 +0100
+
+inguma (0.0.6-3) unstable; urgency=low
+
+  * Re-package inguma (Closes: #467446)
+  * Do not use python-support, packages are no real libs,
+    just private modules, so they are now installed
+    in /usr/share/inguma
+
+ -- Pierre Chifflier <pollux@debian.org>  Mon, 25 Feb 2008 17:55:00 +0100
+
+inguma (0.0.6-2) unstable; urgency=low
+
+  * Move package to section net (Closes: #466765)
+
+ -- Pierre Chifflier <pollux@debian.org>  Thu, 21 Feb 2008 11:27:07 +0100
+
+inguma (0.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #456512)
+
+ -- Pierre Chifflier <pollux@debian.org>  Fri, 01 Feb 2008 21:25:23 +0100
+
