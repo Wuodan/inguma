@@ -1,3 +1,9 @@
+inguma (0.4-1kali3) kali; urgency=low
+
+  * Added watch file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 11 Jan 2014 11:56:37 -0500
+
 inguma (0.4-1kali2) kali; urgency=low
 
   * Added python-bluez to dependencies

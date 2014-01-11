@@ -1,0 +1,3 @@
+version=3
+
+http://inguma.eu/projects/inguma/files .*/inguma-(.*)\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
